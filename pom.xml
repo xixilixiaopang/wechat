@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>wechat-common</module>
+        <module>wechat-system</module>
+        <module>wechat-task</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
