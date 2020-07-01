@@ -1,13 +1,12 @@
 spring:
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/wechat?serverTimezone=GMT&characterEncoding=utf-8
-    username: root
-    password: 123456
+  profiles:
+    active: dev
+  aop:
+    auto: true
 server:
-  port: 8080
+  port: 8088
   servlet:
-    context-path: /wechat-system
+    context-path: /wechat
 wechat:
   appId: wx52a5971ec687ccc9
   appSecret: a5da7b3fc168e5f9cbf26419f099a2c7
